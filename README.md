@@ -1,4 +1,4 @@
-#ParkPlanr TPJS
+# ParkPlanr TPJS
 
 
 Uses [cubehouse/themeparks](https://github.com/cubehouse/themeparks) to import queue times and opening times into [ParkPlanr](https://parkplanr.app)
