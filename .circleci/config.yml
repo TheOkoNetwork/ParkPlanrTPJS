@@ -3,7 +3,7 @@ jobs:
   test:
     working_directory: ~/NativescriptAppBuild
     docker:
-      - image: circleci/node:12.4.2
+      - image: circleci/node:13.0
     steps:
       - checkout
 
