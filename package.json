@@ -4,12 +4,16 @@
   "description": "Queue times and opening times importer for ParkPlanr powered by cubehouse/themeparks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lintfix": "eslint . --fix"
   },
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^8.3.0",
     "themeparks": "^5.1.28"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
