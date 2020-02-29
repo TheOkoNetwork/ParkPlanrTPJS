@@ -101,7 +101,7 @@ setTimeout(CheckOpeningTimes, 1000 * 60 * 1); // refresh every minute
 
 CheckOpeningTimes();
 
-db.collection('Parks').onSnapshot((DocSnapshot) => {
+db.collection('parks').onSnapshot((DocSnapshot) => {
 // console.log("TPJS Names's updated/initially fetched");
 
 TPJSNameFetched=false;

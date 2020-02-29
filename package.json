@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lintfix": "eslint . --fix"
+    "lintfix": "eslint . --fix",
+    "deploy": "node deploy"
   },
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
@@ -14,6 +15,8 @@
     "themeparks": "^5.1.28"
   },
   "devDependencies": {
-    "eslint": "^6.8.0"
+    "digitalocean": "^1.2.0",
+    "eslint": "^6.8.0",
+    "node-ssh": "^7.0.0"
   }
 }

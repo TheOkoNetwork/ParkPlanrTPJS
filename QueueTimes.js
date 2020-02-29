@@ -134,7 +134,7 @@ setTimeout(CheckQueueTimes, 1000 * 15); // refresh every 15 seconds
 
 CheckQueueTimes();
 
-db.collectionGroup('Rides').onSnapshot((DocSnapshot) => {
+db.collectionGroup('rides').onSnapshot((DocSnapshot) => {
 console.log('TPJS ID\'s updated/initially fetched');
 
 TPJSIDFetched=false;
