@@ -6,17 +6,21 @@
   "scripts": {
     "lint": "eslint .",
     "lintfix": "eslint . --fix",
-    "deploy": "node deploy"
+    "deploy": "node deploy",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^8.3.0",
-    "themeparks": "^5.1.28"
+    "themeparks": "^5.1.28",
+    "snyk": "^1.339.2"
   },
   "devDependencies": {
     "digitalocean": "^1.2.0",
     "eslint": "^6.8.0",
     "node-ssh": "^7.0.0"
-  }
+  },
+  "snyk": true
 }
