@@ -13,9 +13,9 @@
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^8.3.0",
-    "themeparks": "^5.1.28",
-    "snyk": "^1.339.3"
+    "firebase-admin": "^9.4.2",
+    "themeparks": "^5.1.37",
+    "snyk": "^1.425.4"
   },
   "devDependencies": {
     "digitalocean": "^1.2.0",
