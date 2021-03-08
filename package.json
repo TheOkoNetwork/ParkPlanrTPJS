@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "firebase-admin": "^9.4.2",
-    "themeparks": "^5.1.37",
+    "themeparks": "^5.1.45",
     "snyk": "^1.425.4"
   },
   "devDependencies": {
