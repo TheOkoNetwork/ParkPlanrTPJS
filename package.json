@@ -13,7 +13,7 @@
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
   "dependencies": {
-    "firebase-admin": "^9.4.2",
+    "firebase-admin": "^9.9.0",
     "themeparks": "^5.1.37",
     "snyk": "^1.464.0"
   },
