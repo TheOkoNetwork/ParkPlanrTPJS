@@ -15,7 +15,7 @@
   "dependencies": {
     "firebase-admin": "^9.10.0",
     "themeparks": "^5.1.47",
-    "snyk": "^1.646.0"
+    "snyk": "^1.667.0"
   },
   "devDependencies": {
     "digitalocean": "^1.2.0",
