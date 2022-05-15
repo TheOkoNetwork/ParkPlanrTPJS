@@ -1,26 +1,23 @@
 {
-  "name": "ParkPlanrTPJS",
+  "name": "parkplanrtpjs",
   "version": "1.0.0",
-  "description": "Queue times and opening times importer for ParkPlanr powered by cubehouse/themeparks",
-  "main": "index.js",
+  "description": "Grabs data from api.themeparks.wiki and stores in mongoDB",
+  "main": "queueTimes.js",
   "scripts": {
-    "lint": "eslint .",
-    "lintfix": "eslint . --fix",
-    "deploy": "node deploy",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOkoNetwork/ParkPlanrTPJS.git"
   },
   "author": "Gregory Oakley-Stevenson <gregory@okonetwork.org.uk>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheOkoNetwork/ParkPlanrTPJS/issues"
+  },
+  "homepage": "https://github.com/TheOkoNetwork/ParkPlanrTPJS#readme",
   "dependencies": {
-    "firebase-admin": "^9.10.0",
-    "themeparks": "^5.1.47",
-    "snyk": "^1.646.0"
-  },
-  "devDependencies": {
-    "digitalocean": "^1.2.0",
-    "eslint": "^6.8.0",
-    "node-ssh": "^7.0.0"
-  },
-  "snyk": true
+    "mongodb": "^4.6.0",
+    "node-fetch": "^2.6.7"
+  }
 }
