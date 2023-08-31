@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/TheOkoNetwork/ParkPlanrTPJS#readme",
   "dependencies": {
-    "mongodb": "^4.6.0",
+    "mongodb": "^4.17.0",
     "node-fetch": "^2.6.7"
   }
 }
